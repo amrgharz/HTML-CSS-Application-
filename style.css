@@ -1,0 +1,141 @@
+/* Global Rulse */
+body{
+ height:5000px;
+}
+
+.container{
+    width:1200px;
+    margin:auto;
+}
+
+/* navbar styles */
+nav{
+    background-color:#252F31;
+    overflow: hidden;
+    color:#ffffff;
+}
+nav h2{
+    float:left;
+    
+}
+nav h2 span{
+    color:#1AA262;
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    float:right;
+    padding-left: 0px;
+}
+nav ul li{
+    float:left;
+    padding:10px;
+}
+
+/* END OF NAV STYLES */
+
+/* START OF VALUES STYLES */
+.features{
+    overflow: hidden;
+    padding:30px 0px;
+}
+.features .char{
+    float:left;
+    width:33.33%;
+}
+
+/* END OF VALUES STYLES */
+/* STRAT ABOUT ME RULSE */
+.about-me{
+    background-color: lightgray;
+    overflow: hidden;
+}
+.about-me .image{
+    float:left;
+    width:40%
+}
+.about-me .info{
+    float:left;
+    width:60%
+}
+.about-me .info .hobbies > div{
+float:left;
+width:50%;
+min-height: 150px;
+}
+/* END ABOUT ME RULSE */
+/* Start My Skills */
+.my-skills .skills{
+    width:50%;
+    float:left;
+}
+.my-skills .progress{
+    float:left;
+}
+/* End My Skills */
+/* Start my resume */
+.resume{
+    padding:30px 0px;
+    text-align: center;
+}
+/* End my resume */
+/* Start My Education */
+.my-education .main{
+    width:50%;
+    float:left;
+}
+.my-education .education-details{
+    float:left;
+}
+/* End My Skills */
+/* Start My Experience */
+.my-experience .exp{
+    width:50%;
+    float:left;
+}
+.my-experience .experience-details{
+    float:left;
+}
+/* End My experience */
+/* Start my testimonials */
+.testimonials{
+    text-align: center;
+}
+/* End My testimonials */
+/* Start Portfolio */
+.portfolio{
+    padding: 30px 0px;
+}
+.portfolio .main{
+    text-align: center;
+}
+.portfolio .our-work > div{
+    width:33.33%;
+    float:left;
+    margin-bottom: 10px;
+}
+
+.portfolio .our-work > div img{
+    width:95%;
+}
+
+/* End Portfolio */
+/* Start Contact me */
+.contact-me{
+    padding:30px 0px;
+    margin-bottom: 10px;
+    background-color: #252F31;
+}
+.contact-me .main{
+    width:50%;
+    float:left;
+}
+/* End Contact me */
+/* Start Footer */
+.footer{
+    text-align: center;
+    background-color: #191E22;
+    color:lightgray;
+}
+/* End Footer */
