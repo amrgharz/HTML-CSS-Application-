@@ -7,7 +7,36 @@ body{
     width:1200px;
     margin:auto;
 }
+/* Start Slider stiles */
+    header .intro{
+        background-image: url("slider.jpg");
+        height:500px;
+        background-size: cover;
+        text-align: center;
+    }
+    .intro .elements{
+        padding-top:20vh;
+    }
+    .intro .elements h1{
+        color: darkslategray;
+        font-size: 50px;
+        border-top: 2px solid darkslategray;
+        width: 600px;
+        margin: 0 auto;
+        border-bottom: 2px solid darkslategray;
+        padding: 10px;
+        margin-bottom: 10px
+    }
+    .intro .elements button{
+        background: none;
+        margin-top: 30px;
+        border: 2px solid darkslategray;
+        width: 150px;
+        height: 40px;
+        font-weight: 600;
+    }
 
+/* End Slider stiles */
 /* navbar styles */
 nav{
     background-color:#252F31;
@@ -32,6 +61,13 @@ nav ul li{
     float:left;
     padding:10px;
 }
+nav ul li a{
+    text-decoration: none;
+    color: lightgray;
+}
+nav ul li a:hover{
+    color:#1AA262;
+}
 
 /* END OF NAV STYLES */
 
@@ -43,6 +79,12 @@ nav ul li{
 .features .char{
     float:left;
     width:33.33%;
+}
+.features .char h2{
+    color:#ABABAB;
+}
+.features .char p{
+    color: #CACACA;
 }
 
 /* END OF VALUES STYLES */
