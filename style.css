@@ -133,15 +133,61 @@ min-height: 150px;
 .my-skills .skills{
     width:50%;
     float:left;
+    padding-right: 30px;
+}
+.my-skills .skills h2{
+    color:#4D565B;
+}
+.my-skills .skills > p{
+    margin-bottom:40px;
+    color:#B5B5B5
+}
+.my-skills .skills button,
+.resume .download-resume
+{
+    background-color: transparent;
+    border: solid 2px #1AA262;
+    width: 120px;
+    height: 40px;
+    color: #1AA262;
 }
 .my-skills .progress{
     float:left;
+    width:40%;
+    margin-top:46px;
 }
+.my-skills .progress .tech h3{
+    margin-top:10px;
+}
+.my-skills .progress .tech div{
+    height: 30px;
+    background-color: #888;
+}
+.my-skills .progress .tech div span{
+    width: 80%;
+    background-color: #1AA262;
+    display: inline-block;
+    height: inherit;
+    color: white;
+    text-align: right;
+    line-height: 32px;
+}
+
 /* End My Skills */
 /* Start my resume */
 .resume{
     padding:30px 0px;
     text-align: center;
+    background-color: #F2F2F2;
+    margin: 30px 0px;
+}
+.resume h2{
+    color:#4D565B;
+    text-transform: uppercase;
+
+}
+.resume p{
+    color:#888
 }
 /* End my resume */
 /* Start My Education */
