@@ -194,24 +194,91 @@ min-height: 150px;
 .my-education .main{
     width:50%;
     float:left;
+    margin-bottom:40px;
+    color:#B5B5B5
 }
+
 .my-education .education-details{
     float:left;
+    width: 44%;
+    margin-left: 2%;
+    color:#B5B5B5
+}
+.my-education .education-details .gpa{
+    background-color: #777;
+    height: 30px;
+    width: 70px;
+    margin: 15px 0px;
+}
+.my-education .education-details .gpa span{
+    width: 100%;
+    background-color: #1AA262;
+    display: inline-block;
+    height: inherit;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+
 }
 /* End My Skills */
 /* Start My Experience */
-.my-experience .exp{
+.my-experience .main{
     width:50%;
     float:left;
+    margin-bottom:40px;
+    color:#B5B5B5
 }
+.my-experience .left-column{
+    width:50%;
+    float: left;
+}
+
 .my-experience .experience-details{
     float:left;
+    width: 100%;
+    margin-left: 2%;
+    color:#B5B5B5
+}
+.my-experience .experience-details .exp{
+    background-color: #777;
+    height: 30px;
+    width: 70px;
+    margin: 15px 0px;
+}
+.my-experience .experience-details .exp span{
+    width: 100%;
+    background-color: #1AA262;
+    display: inline-block;
+    height: inherit;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+
 }
 /* End My experience */
 /* Start my testimonials */
 .testimonials{
     text-align: center;
+    background-color: #F2F2F2;
 }
+.testimonials blockquote{
+    padding: 35px 0px;
+    line-height: 1.7;
+  
+}
+.testimonials .main ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.testimonials .main ul li{
+    width: 10px;
+    height: 10px;
+    border: 1px solid lightgreen;
+    border-radius: 6px;
+    margin:0px 5px;
+    display: inline-block;
+}
+
 /* End My testimonials */
 /* Start Portfolio */
 .portfolio{
