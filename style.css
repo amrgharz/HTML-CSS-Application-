@@ -269,6 +269,7 @@ min-height: 150px;
 .testimonials .main ul{
     list-style: none;
     padding-left: 0px;
+    padding-bottom: 20px;
 }
 .testimonials .main ul li{
     width: 10px;
@@ -286,6 +287,8 @@ min-height: 150px;
 }
 .portfolio .main{
     text-align: center;
+    padding: 30px 0px;
+
 }
 .portfolio .our-work > div{
     width:33.33%;
@@ -301,12 +304,51 @@ min-height: 150px;
 /* Start Contact me */
 .contact-me{
     padding:30px 0px;
-    margin-bottom: 10px;
     background-color: #252F31;
 }
 .contact-me .main{
     width:50%;
     float:left;
+}
+.contact-me .main h2{
+    color:#fef;
+}
+.contact-me .main p{
+    color: #777C7F;
+    line-height: 1.6;
+}
+.contact-form{
+    width:45%;
+    margin-left: 5%;
+    float:left;
+}
+.contact-form label{
+    display:block;
+    margin-bottom: 15px;
+    color:#888
+}
+.contact-form input{
+    width: 80%;
+    border: 0;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-bottom: 20px;;
+}
+.contact-form textarea{
+    width: 80%;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display:block;
+
+}
+.contact-form input[type="button"]{
+width: 20%;
+background-color: transparent;
+border: 2px solid #1AA262;
+height: 40px;
+color:#1AA262;
 }
 /* End Contact me */
 /* Start Footer */
@@ -314,5 +356,7 @@ min-height: 150px;
     text-align: center;
     background-color: #191E22;
     color:lightgray;
+    height:100px;
+    padding-top:50px;
 }
 /* End Footer */
